@@ -1,0 +1,153 @@
+/* Riset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h5 {
+    font-size: xx-large;
+    margin-right: 670PX;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+header {
+    background-color: orange;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-order {
+    background-color: aliceblue;
+    color: aqua;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logo:hover {
+    transform: scale(0.9);
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: silver;
+}
+
+.hero image {
+    width: 10px;
+    max-width: 600px;
+    height: auto;
+    border: 10px;
+}
+
+.hero content {
+    max-width: 600px;
+}
+
+.tombolpesansekarang {
+    background-color: aqua;
+    position: absolute;
+    color: black;
+    margin-top: 50px;
+    margin-right: 350px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.tombolpesansekarang:hover {
+    color: white;
+    background-color: green;
+
+}
+
+/* Product Section */ 
+#product h2 {
+    padding: 40px 0 0 40px;
+}
+
+h2 {
+    background-color: orange;
+}
+
+.produk-list {
+    background-color: silver;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.product {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Testimonial Section */ 
+#testimonials {
+    background-color: #333;
+    padding: 40px;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.testinmonials img {
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+}
+
+/* Contact Section */
+#contact {
+    background-color: silver;
+    padding: 40px;
+    text-align: center;
+}
